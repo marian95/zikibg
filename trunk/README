@@ -1,0 +1,41 @@
+####################################################################
+# License
+####################################################################
+See the files LICENSE or COPYING
+
+####################################################################
+# How to compile:
+####################################################################
+1. SDL.
+	You will need to have the SDL library installed.
+	The path of the SDL source file is assumed to be:
+		/usr/include/SDL/
+	If this is not the case then you need to update the path in:
+		make-run.sh 
+
+2. Compile.
+	Run the make script:
+	  ./make-run.sh
+	A binary file zikibg will be created.
+
+3. Run and play.
+	Run zikibg to play.
+	  ./zikibg
+
+####################################################################
+# In game instructions:
+####################################################################
+1. To exit the game ESC
+2. The yellow chip indicates which side currently has the turn.
+3. Left click on each dice to roll, there is no animation,
+   the numbers will change but not always so if the numbers dont 
+   change then you may have just rolled the same numbers again.
+4. Once you have rolled your dice the left click on a chip that you 
+   want to pick-up and then left click on the triangle you want to 
+   drop it on.
+5. If you have picked-up a chip but changed your mind, then right-click
+   and it will be returned.
+6. There is no scoring.
+7. There is no AI.
+8. There is no network play.
+9. You are playing both sides at this stage.
